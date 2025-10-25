@@ -1,0 +1,309 @@
+{
+  "results": [
+    {
+      "room": {
+        "name": "Product Qiscus Team",
+        "id": 12456,
+        "image_url": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=300",
+        "participant": [
+          {
+            "id": "admin@qiscus.com",
+            "name": "Admin Qiscus",
+            "role": 0
+          },
+          {
+            "id": "agent.sarah@qiscus.com",
+            "name": "Sarah Mitchell",
+            "role": 1
+          },
+          {
+            "id": "agent.david@qiscus.com",
+            "name": "David Chen",
+            "role": 1
+          },
+          {
+            "id": "developer.mike@qiscus.com",
+            "name": "Mike Johnson",
+            "role": 1
+          },
+          {
+            "id": "customer@mail.com",
+            "name": "Naufal Labib",
+            "role": 2
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 885512,
+          "type": "text",
+          "message": "Selamat pagi team! Ada update fitur baru hari ini",
+          "sender": "admin@qiscus.com",
+          "timestamp": "2024-01-15T08:00:00Z"
+        },
+        {
+          "id": 885513,
+          "type": "text",
+          "message": "Pagi! Wah menarik, fitur apa itu?",
+          "sender": "agent.sarah@qiscus.com",
+          "timestamp": "2024-01-15T08:01:30Z"
+        },
+        {
+          "id": 885514,
+          "type": "text",
+          "message": "Kita akan launch fitur video call dengan kualitas HD",
+          "sender": "admin@qiscus.com",
+          "timestamp": "2024-01-15T08:02:15Z"
+        },
+        {
+          "id": 885515,
+          "type": "text",
+          "message": "Wah keren! Saya sebagai customer sangat menunggu fitur ini 🎉",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T08:03:00Z"
+        },
+        {
+          "id": 885516,
+          "type": "text",
+          "message": "Terima kasih feedbacknya Naufal! Senang mendengarnya",
+          "sender": "admin@qiscus.com",
+          "timestamp": "2024-01-15T08:04:00Z"
+        },
+        {
+          "id": 885517,
+          "type": "image",
+          "message": "Ini mockup tampilan fitur video call nya",
+          "sender": "developer.mike@qiscus.com",
+          "timestamp": "2024-01-15T08:05:00Z",
+          "attachment": {
+            "url": "https://picsum.photos/id/180/800/600",
+            "file_name": "video_call_mockup.png",
+            "file_size": 456000,
+            "mime_type": "image/png",
+            "caption": "Video Call Feature Mockup"
+          }
+        },
+        {
+          "id": 885518,
+          "type": "text",
+          "message": "Keren banget! Kapan launching nya?",
+          "sender": "agent.david@qiscus.com",
+          "timestamp": "2024-01-15T08:06:30Z"
+        },
+        {
+          "id": 885519,
+          "type": "text",
+          "message": "Target minggu depan sudah bisa di production",
+          "sender": "admin@qiscus.com",
+          "timestamp": "2024-01-15T08:07:45Z"
+        },
+        {
+          "id": 885520,
+          "type": "image",
+          "message": "Saya ada referensi UI/UX dari kompetitor nih, mungkin bisa jadi inspirasi",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T08:08:30Z",
+          "attachment": {
+            "url": "https://picsum.photos/id/201/800/600",
+            "file_name": "competitor_ui_reference.jpg",
+            "file_size": 523000,
+            "mime_type": "image/jpeg",
+            "caption": "Competitor UI Reference"
+          }
+        },
+        {
+          "id": 885521,
+          "type": "text",
+          "message": "Wah bagus banget referensinya Naufal! Thanks for sharing",
+          "sender": "developer.mike@qiscus.com",
+          "timestamp": "2024-01-15T08:09:15Z"
+        },
+        {
+          "id": 885522,
+          "type": "video",
+          "message": "Ini demo singkat fitur video call",
+          "sender": "developer.mike@qiscus.com",
+          "timestamp": "2024-01-15T08:10:00Z",
+          "attachment": {
+            "url": "https://www.w3schools.com/html/mov_bbb.mp4",
+            "file_name": "video_call_demo.mp4",
+            "file_size": 5242880,
+            "mime_type": "video/mp4",
+            "caption": "Video Call Demo",
+            "duration": 30,
+            "thumbnail": "https://picsum.photos/320/180"
+          }
+        },
+        {
+          "id": 885523,
+          "type": "text",
+          "message": "Mantap Mike! Sangat smooth",
+          "sender": "agent.sarah@qiscus.com",
+          "timestamp": "2024-01-15T08:12:20Z"
+        },
+        {
+          "id": 885524,
+          "type": "text",
+          "message": "Performanya bagus banget! Latency rendah ya?",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T08:13:00Z"
+        },
+        {
+          "id": 885525,
+          "type": "text",
+          "message": "Betul! Kami pakai WebRTC dengan optimasi khusus",
+          "sender": "developer.mike@qiscus.com",
+          "timestamp": "2024-01-15T08:13:45Z"
+        },
+        {
+          "id": 885526,
+          "type": "pdf",
+          "message": "Ini dokumentasi lengkap untuk fitur barunya",
+          "sender": "developer.mike@qiscus.com",
+          "timestamp": "2024-01-15T08:15:00Z",
+          "attachment": {
+            "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+            "file_name": "video_call_documentation.pdf",
+            "file_size": 1048576,
+            "mime_type": "application/pdf",
+            "caption": "Video Call Documentation",
+            "page_count": 12
+          }
+        },
+        {
+          "id": 885527,
+          "type": "text",
+          "message": "Terima kasih dokumentasinya, akan saya pelajari",
+          "sender": "agent.david@qiscus.com",
+          "timestamp": "2024-01-15T08:16:30Z"
+        },
+        {
+          "id": 885528,
+          "type": "pdf",
+          "message": "Saya juga ada dokumen requirement dari sisi customer nih, bisa jadi referensi untuk fase 2",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T08:17:15Z",
+          "attachment": {
+            "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+            "file_name": "customer_requirements_phase2.pdf",
+            "file_size": 892000,
+            "mime_type": "application/pdf",
+            "caption": "Customer Requirements Phase 2",
+            "page_count": 8
+          }
+        },
+        {
+          "id": 885529,
+          "type": "text",
+          "message": "Perfect timing Naufal! Ini sangat membantu untuk planning ke depan",
+          "sender": "admin@qiscus.com",
+          "timestamp": "2024-01-15T08:18:00Z"
+        },
+        {
+          "id": 885530,
+          "type": "text",
+          "message": "Senang bisa berkontribusi! Semangat team 💪",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T08:18:45Z"
+        },
+        {
+          "id": 885531,
+          "type": "text",
+          "message": "Jangan lupa meeting jam 3 sore ya untuk finalisasi!",
+          "sender": "admin@qiscus.com",
+          "timestamp": "2024-01-15T09:15:00Z"
+        },
+        {
+          "id": 885532,
+          "type": "text",
+          "message": "Siap hadir!",
+          "sender": "agent.sarah@qiscus.com",
+          "timestamp": "2024-01-15T09:15:45Z"
+        },
+        {
+          "id": 885533,
+          "type": "text",
+          "message": "Noted! See you all",
+          "sender": "developer.mike@qiscus.com",
+          "timestamp": "2024-01-15T09:16:20Z"
+        },
+        {
+          "id": 885534,
+          "type": "text",
+          "message": "Siap! Saya akan join via video call ya",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T09:16:50Z"
+        },
+        {
+          "id": 885535,
+          "type": "image",
+          "message": "Update progress development 95% selesai",
+          "sender": "developer.mike@qiscus.com",
+          "timestamp": "2024-01-15T14:30:00Z",
+          "attachment": {
+            "url": "https://picsum.photos/id/201/900/600",
+            "file_name": "progress_screenshot.png",
+            "file_size": 678000,
+            "mime_type": "image/png",
+            "caption": "Development Progress"
+          }
+        },
+        {
+          "id": 885536,
+          "type": "text",
+          "message": "Excellent progress Mike! Tinggal polishing aja ya",
+          "sender": "admin@qiscus.com",
+          "timestamp": "2024-01-15T14:32:00Z"
+        },
+        {
+          "id": 885537,
+          "type": "text",
+          "message": "Betul, tinggal bug fixing minor",
+          "sender": "developer.mike@qiscus.com",
+          "timestamp": "2024-01-15T14:33:15Z"
+        },
+        {
+          "id": 885538,
+          "type": "text",
+          "message": "Meeting jam 3 sore ya!",
+          "sender": "agent.sarah@qiscus.com",
+          "timestamp": "2024-01-15T14:45:00Z"
+        }
+      ]
+    }
+  ],
+  "available_users": [
+    {
+      "id": "lisa.anderson@mail.com",
+      "name": "Lisa Anderson",
+      "avatar": "https://randomuser.me/api/portraits/women/65.jpg",
+      "email": "lisa.anderson@mail.com",
+      "status": "online",
+      "role": "Marketing Manager"
+    },
+    {
+      "id": "james.wilson@mail.com",
+      "name": "James Wilson",
+      "avatar": "https://randomuser.me/api/portraits/men/75.jpg",
+      "email": "james.wilson@mail.com",
+      "status": "online",
+      "role": "Customer Support"
+    },
+    {
+      "id": "isabelle.fontaine@mail.com",
+      "name": "Isabelle Fontaine",
+      "avatar": "https://randomuser.me/api/portraits/women/67.jpg",
+      "email": "isabelle.fontaine@mail.com",
+      "status": "online",
+      "role": "Product Designer"
+    },
+    {
+      "id": "haneul.lim@mail.com",
+      "name": "Haneul Lim",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "email": "haneul.lim@mail.com",
+      "status": "online",
+      "role": "Software Engineer"
+    }
+  ]
+}

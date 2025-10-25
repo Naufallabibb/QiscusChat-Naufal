@@ -1,0 +1,169 @@
+@import 'tailwindcss';
+
+:root {
+  --qiscus-dark-blue: #1a7ba9;
+  --qiscus-light-blue: #30b1ac;
+  --qiscus-green: #85c66c;
+  --qiscus-dark-blue-hover: #155f87;
+  --qiscus-light-blue-hover: #288f8b;
+  --qiscus-green-hover: #6fa857;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+  background: #f5f7fa;
+}
+
+/* Scrollbar styling dengan warna Qiscus */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8f4f8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--qiscus-light-blue);
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--qiscus-dark-blue);
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--qiscus-light-blue);
+  color: white;
+}
+
+::-moz-selection {
+  background-color: var(--qiscus-light-blue);
+  color: white;
+}
+
+/* Custom utility classes */
+.bg-qiscus-dark {
+  background-color: var(--qiscus-dark-blue);
+}
+
+.bg-qiscus-light {
+  background-color: var(--qiscus-light-blue);
+}
+
+.bg-qiscus-green {
+  background-color: var(--qiscus-green);
+}
+
+.text-qiscus-dark {
+  color: var(--qiscus-dark-blue);
+}
+
+.text-qiscus-light {
+  color: var(--qiscus-light-blue);
+}
+
+.text-qiscus-green {
+  color: var(--qiscus-green);
+}
+
+.hover\:bg-qiscus-dark-hover:hover {
+  background-color: var(--qiscus-dark-blue-hover);
+}
+
+.hover\:bg-qiscus-light-hover:hover {
+  background-color: var(--qiscus-light-blue-hover);
+}
+
+.hover\:bg-qiscus-green-hover:hover {
+  background-color: var(--qiscus-green-hover);
+}
+
+/* Border utilities */
+.border-qiscus-light {
+  border-color: var(--qiscus-light-blue);
+}
+
+.border-qiscus-dark {
+  border-color: var(--qiscus-dark-blue);
+}
+
+/* Ring utilities for focus states */
+.ring-qiscus-light {
+  --tw-ring-color: var(--qiscus-light-blue);
+}
+
+.ring-qiscus-dark {
+  --tw-ring-color: var(--qiscus-dark-blue);
+}
+
+/* Gradient backgrounds */
+.bg-qiscus-gradient {
+  background: linear-gradient(135deg, var(--qiscus-dark-blue) 0%, var(--qiscus-light-blue) 100%);
+}
+
+.bg-qiscus-gradient-hover:hover {
+  background: linear-gradient(
+    135deg,
+    var(--qiscus-dark-blue-hover) 0%,
+    var(--qiscus-light-blue-hover) 100%
+  );
+}
+
+/* Shadow utilities dengan warna Qiscus */
+.shadow-qiscus {
+  box-shadow:
+    0 4px 6px -1px rgba(26, 123, 169, 0.1),
+    0 2px 4px -1px rgba(26, 123, 169, 0.06);
+}
+
+.shadow-qiscus-lg {
+  box-shadow:
+    0 10px 15px -3px rgba(26, 123, 169, 0.1),
+    0 4px 6px -2px rgba(26, 123, 169, 0.05);
+}
+
+/* Button styles */
+.btn-qiscus {
+  background: var(--qiscus-light-blue);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.btn-qiscus:hover {
+  background: var(--qiscus-light-blue-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(48, 177, 172, 0.3);
+}
+
+.btn-qiscus:active {
+  transform: translateY(0);
+}
+
+/* Chat bubble styles */
+.chat-bubble-own {
+  background: linear-gradient(135deg, var(--qiscus-light-blue) 0%, var(--qiscus-green) 100%);
+  color: white;
+}
+
+.chat-bubble-other {
+  background: white;
+  color: #374151;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+}
