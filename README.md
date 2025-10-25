@@ -13,6 +13,8 @@ Aplikasi chat modern berbasis Vue 3 yang dikembangkan sebagai bagian dari techni
 Diagram sistem chatting untuk obrolan grup dan obrolan pribadi telah dibuat dan dilampirkan di:
 
 - **File:** `public/qiscus_flow.png`
+<img width="1523" height="1215" alt="qiscus_flow" src="https://github.com/user-attachments/assets/42bfd821-4567-449a-9446-91af8cfd8889" />
+
 - Diagram menunjukkan arsitektur sistem yang mendukung:
   - Single chat (one-to-one messaging)
   - Group chat (multi-participant messaging)
@@ -25,6 +27,7 @@ Diagram sistem chatting untuk obrolan grup dan obrolan pribadi telah dibuat dan 
 Entity-Relationship Diagram (ERD) untuk struktur database telah dibuat dan dilampirkan di:
 
 - **File:** `public/qiscus_erd.png`
+<img width="959" height="873" alt="qiscus_erd" src="https://github.com/user-attachments/assets/39f2879a-cc0a-49d3-9409-281273969779" />
 
 #### Database Structure Overview:
 
